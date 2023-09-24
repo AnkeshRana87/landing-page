@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(images/img9.webp);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(253, 249, 252);
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.menu a:hover{
+    border: 1px solid white;
+    background: transparent;
+    color: red;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: red;
+}
+.register a:hover{
+    border: 2px solid red;
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.h-text span{
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+.h-text h2{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+.h-text a{
+    text-decoration: none;
+    background: red;
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+.h-text a:hover{
+    border: 2px solid red;
+    background: transparent;
+}
+.me{
+    position: absolute;
+    top: 300%;
+    left: -70%;
+    max-width: 650px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+}
